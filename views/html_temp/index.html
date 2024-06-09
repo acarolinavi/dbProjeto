@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Login</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.1.0/dist/iconify-icon.min.js"></script>
+    </head>
+    <body>
+        <header class="container-fluid">
+            <nav>
+                <ul></ul>
+                <ul>
+                    <li><img src="logo-609x307.webp" alt="Prefeitura de VCA"></li>
+                </ul>
+                <ul></ul>
+            </nav>
+        </header>
+        <main class="container">
+            <div class="container">
+                <article>
+                    <header><h3>Login</h3></header>
+                    <form action="/login" method="POST">
+                        <label>
+                            Usuário
+                            <input type="text" 
+                            placeholder="Nome"
+                            required
+                            name="user">
+                        </label>
+                        <label>
+                            Senha
+                            <input type="password"
+                            placeholder="Senha"
+                            required
+                            name="password">
+                            <small>Nunca compartilhe sua senha com terceiros</small>
+                        </label>
+                        <input type="submit"
+                        value="Entrar">
+                    </form>
+                </article>
+            </div>
+        </main>
+        <footer class="container grid">
+            <div></div>
+            <div>
+                <h5>Utilidades</h5>
+                <small>Webmail</small>
+                <br>
+                <small>Termos e condições</small>
+                <br>
+                <small>Mapa do site</small>
+            </div>
+            <div>
+                <h5>Endereço</h5>
+                <small>
+                    Praça Joaquim Correia, 55, Centro
+                    <br>
+                    Vitória da Conquista - BA
+                    <br>
+                    CEP: 45000-907
+                    <br>
+                    (77) 3424-8500
+                </small>
+            </div>
+            <div>
+                <h5>Contato</h5>
+                <small>Fale Conosco</small>
+                <br><br>
+                <h5>Redes Sociais</h5>
+                <div>
+                    <iconify-icon icon="mdi:instagram"></iconify-icon>
+                    <iconify-icon icon="mdi:facebook"></iconify-icon>
+                    <iconify-icon icon="mdi:twitter"></iconify-icon>
+                    <iconify-icon icon="mdi:whatsapp"></iconify-icon>
+                </div>
+            </div>
+            <div></div>
+        </footer>
+    </body>
+</html>
